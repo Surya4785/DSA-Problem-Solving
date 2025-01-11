@@ -33,13 +33,12 @@ class Codechef
 		Scanner sc = new Scanner(System.in);
 		int t,x,y,i,n;
 		t=sc.nextInt();
+		
 		for(i=1;i<=t;i++){
 		    x=sc.nextInt();
-		    y=sc.nextInt();
-		    //n=(x*y)/100;
-		    System.out.println((x*y)/100);
+		    y=sc.nextInt();             
+		    System.out.println((x*y)/100);    //n=(x*y)/100;
 		}
-		// your code goes here
 
 	}
 }
