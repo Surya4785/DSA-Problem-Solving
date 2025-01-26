@@ -37,7 +37,7 @@ class Codechef
 		for(i=1;i<=t;i++){
 		    x=sc.nextInt();
 		    y=sc.nextInt();             
-		    System.out.println((x*y)/100);    //n=(x*y)/100;
+		    System.out.println((x*y)/100);   //n=(x*y)/100; 
 		}
 
 	}
