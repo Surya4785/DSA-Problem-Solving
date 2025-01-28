@@ -1,6 +1,6 @@
 package function;
 import java.util.Scanner;
-// define two method to print the maximum and the minimum number respectively among three numbers entered by the user.
+// define two method to print the maximum and the minimum number respectively among three numbers entered by the user. 
 public class function1 {
     public static void main(String[] args) {
         Scanner scan =  new Scanner(System.in);
