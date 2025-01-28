@@ -7,7 +7,7 @@ public class function1 {
         System.out.println("Enter the three numbers:");
         int n1 = scan.nextInt();
         int n2 = scan.nextInt();
-        int n3 = scan.nextInt();
+        int n3 = scan.nextInt(); 
         max(n1,n2,n3);
         min(n1, n2, n3);
         scan.close();   
