@@ -3,45 +3,36 @@ using namespace std;
 
 class Stack
 {
-	queue<int>q;
+queue<int>q;
 public:
 	void push(int val);
 	void pop();
 	int top();
 	bool empty();
 };
-
-void Stack::push(int val)
+void Stack::push(int val){
+int s = q.size();
+q.push(val);
+for (int i=0; i<s; i++)
 {
-	int s = q.size();
-
-	q.push(val);
-
-	for (int i=0; i<s; i++)
-	{
-    
-		q.push(q.front());
-
-		q.pop();
-	}
+    q.push(q.front());
+    q.pop();
+   }
 }
-
 void Stack::pop()
 {
-	if (q.empty())
-		cout << "No elements\n";
+if (q.empty())
+	cout << "No elements\n";
 	else
-		q.pop();
+	q.pop();
 }
-
 int Stack::top()
 {
-	return (q.empty())? -1 : q.front();
+return (q.empty())? -1 : q.front();
 }
-
 bool Stack::empty()
 {
-	return (q.empty());
+return (q.empty());
 }
 
 int main()
