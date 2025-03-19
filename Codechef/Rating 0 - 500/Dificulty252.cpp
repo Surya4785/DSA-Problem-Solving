@@ -19,14 +19,14 @@ Constraints
 using namespace std;
 
 int main() {
-	// your code goes here
-	int n;
-	cin>>n;
-	for(int i=0; i<=(n-1); i++){
-	    int x,y;
-	    cin>>x>>y;
-	    if(x>y){
-	        cout<<(x-y)<<endl;
-	    }
-	 }
+    // your code goes here
+    int n;
+    cin>>n;
+    for(int i=0; i<=(n-1); i++){
+      int x,y;
+      cin>>x>>y;
+      if(x>y){
+	 cout<<(x-y)<<endl;
+       }
+   }
 }
