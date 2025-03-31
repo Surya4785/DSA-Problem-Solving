@@ -14,7 +14,7 @@ For each test case, output how many more runs team B should score to win the mat
 
 Constraints
 1≤T≤10
-50≤Y<X≤200  */
+50≤Y<X≤200   */
 
 include <bits/stdc++.h>
 using namespace std;
