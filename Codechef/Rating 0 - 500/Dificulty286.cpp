@@ -13,7 +13,7 @@ You may print each character of YES and NO in uppercase or lowercase (for exampl
 
 Constraints
 1≤T≤1000
-1≤X,H≤100  */
+1≤X,H≤100   */
 
 #include <bits/stdc++.h>
 using namespace std;
