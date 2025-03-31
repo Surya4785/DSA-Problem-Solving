@@ -11,7 +11,7 @@ Output Format
 For each test case, output the final score of Chef in the examination.
 
 Constraints
-1≤T≤1000  */
+1≤T≤1000    */
 
 #include <bits/stdc++.h>
 using namespace std;
