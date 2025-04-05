@@ -13,7 +13,7 @@ Output Yes, if the team has qualified for the next stage, and No otherwise.
 You may print each character of the string in uppercase or lowercase (for example, the strings YES, yEs, yes, and yeS will all be treated as identical).
 
 Constraints
-1≤X≤20  */
+1≤X≤20   */
 
 #include <bits/stdc++.h>
 using namespace std;
